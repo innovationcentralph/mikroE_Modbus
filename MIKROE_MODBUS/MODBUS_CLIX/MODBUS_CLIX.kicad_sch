@@ -5562,17 +5562,6 @@
 		)
 		(uuid "a6ccfbca-af5f-4cf9-ae13-051f235c22d0")
 	)
-	(label "DIVIDER_CON"
-		(at 250.952 78.994 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b260de79-3728-418a-bbd0-5c9b6f25fee7")
-	)
 	(label "SCK"
 		(at 66.7535 92.853 180)
 		(fields_autoplaced yes)
@@ -6976,7 +6965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 276.352 96.774 0)
 			(effects
 				(font
@@ -7696,7 +7685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 237.236 101.346 0)
 			(effects
 				(font
@@ -7921,7 +7910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 294.132 178.308 0)
 			(effects
 				(font
@@ -7968,13 +7957,13 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 336.804 185.166 270)
+		(at 334.264 185.166 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74e8df43-9e50-4eb6-914b-6167125e52ec")
 		(property "Reference" "J7"
 			(at 335.534 189.4321 90)
@@ -7993,7 +7982,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
-			(at 336.804 185.166 0)
+			(at 334.264 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,7 +7991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.804 185.166 0)
+			(at 334.264 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +8000,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 336.804 185.166 0)
+			(at 334.264 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
