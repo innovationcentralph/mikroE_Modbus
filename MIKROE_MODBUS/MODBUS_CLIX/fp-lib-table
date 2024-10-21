@@ -3,4 +3,5 @@
   (lib (name "ADM485")(type "KiCad")(uri "${KIPRJMOD}/Project Symbols & Footprints/ADM4852ARZ/footprints.pretty")(options "")(descr ""))
   (lib (name "MIKROE")(type "KiCad")(uri "${KIPRJMOD}/Project Symbols & Footprints/MIKROE.pretty")(options "")(descr ""))
   (lib (name "RES-ADJ-TH_3362P")(type "KiCad")(uri "${KIPRJMOD}/Project Symbols & Footprints/RES-ADJ-TH_3362P.pretty")(options "")(descr ""))
+  (lib (name "MIKROE_3800")(type "KiCad")(uri "${KIPRJMOD}/Project Symbols & Footprints/MIKROE_3800")(options "")(descr ""))
 )

@@ -6604,7 +6604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MIKROE:MIKROE-PINS"
+		(property "Footprint" "MIKROE_3800:MIKROE-3800"
 			(at 79.4535 95.393 0)
 			(effects
 				(font
