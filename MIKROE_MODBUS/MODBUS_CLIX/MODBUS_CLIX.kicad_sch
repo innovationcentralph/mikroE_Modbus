@@ -3411,6 +3411,12 @@
 		(uuid "534d6b49-8717-4631-bcd2-62673515c844")
 	)
 	(junction
+		(at 367.6719 104.7367)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c573e0a-80b2-4067-8ce8-363a0eca6a29")
+	)
+	(junction
 		(at 367.6719 112.3567)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3429,10 +3435,10 @@
 		(uuid "79e80b43-afff-4dda-ac13-66bd814c4247")
 	)
 	(junction
-		(at 367.6719 104.7367)
+		(at 377.1969 94.4121)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7fc24e97-20dd-4c71-93fd-c6b29a4a0f13")
+		(uuid "80e569b7-5ef0-45a3-8f37-19f9904bbeec")
 	)
 	(junction
 		(at 187.4433 91.2456)
@@ -3475,12 +3481,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9fa68ef-6aee-4619-ac35-5cc33f722f6a")
-	)
-	(junction
-		(at 377.1969 104.7367)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff849a26-3126-4359-b5a7-a90d256a14b7")
 	)
 	(no_connect
 		(at 66.7535 87.773)
@@ -3680,16 +3680,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.1969 104.7367) (xy 381.0069 104.7367)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d89bf99-b932-460e-90ba-bd4881f267d5")
-	)
-	(wire
-		(pts
 			(xy 187.4433 83.6256) (xy 203.9533 83.6256)
 		)
 		(stroke
@@ -3840,6 +3830,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.1969 94.4121) (xy 372.1588 94.4121)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc0d91b-98c7-4ba3-ade6-2e3afe30e4d7")
+	)
+	(wire
+		(pts
 			(xy 363.8619 92.0367) (xy 363.8619 90.7667)
 		)
 		(stroke
@@ -3847,6 +3847,16 @@
 			(type default)
 		)
 		(uuid "4fc3e97a-688a-403d-89cd-5b533275a6e5")
+	)
+	(wire
+		(pts
+			(xy 372.1588 94.4121) (xy 372.1588 104.7367)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543133e6-bf3b-4198-81d9-5df8233ab1be")
 	)
 	(wire
 		(pts
@@ -3867,16 +3877,6 @@
 			(type default)
 		)
 		(uuid "595b6b28-150f-423f-88d1-a1c398ed4c08")
-	)
-	(wire
-		(pts
-			(xy 367.6719 104.7367) (xy 377.1969 104.7367)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59812f12-6ad3-4917-9686-5ed5c22f99a6")
 	)
 	(wire
 		(pts
@@ -4230,6 +4230,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.1969 94.4121) (xy 383.9418 94.4121)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8430ce-662a-41cb-b7f3-5a2b8933d616")
+	)
+	(wire
+		(pts
 			(xy 357.5119 90.7667) (xy 357.5119 92.0367)
 		)
 		(stroke
@@ -4310,6 +4320,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.1969 94.4121) (xy 377.1969 97.1167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6639f2d-a81b-48dc-8305-3ffaad054566")
+	)
+	(wire
+		(pts
 			(xy 284.988 86.614) (xy 284.988 83.6256)
 		)
 		(stroke
@@ -4357,6 +4377,16 @@
 			(type default)
 		)
 		(uuid "de33e54b-b9ab-4103-8e63-210828200a4b")
+	)
+	(wire
+		(pts
+			(xy 372.1588 104.7367) (xy 367.6719 104.7367)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa143f8-5432-4aab-8dc9-991bad6bdc9b")
 	)
 	(wire
 		(pts
@@ -5607,7 +5637,7 @@
 	)
 	(global_label "MASTER_MODBUS_B"
 		(shape input)
-		(at 381.0069 104.7367 0)
+		(at 383.9418 94.4121 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5617,7 +5647,7 @@
 		)
 		(uuid "6e691cbd-8a03-480d-b0b3-afcb191bd80b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.6906 104.7367 0)
+			(at 400.6255 94.4121 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9568,6 +9598,74 @@
 			(project "MODBUS_CLIX"
 				(path "/9261da16-fb7d-40d7-ab0d-e30fadb62d03"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 377.1969 100.9267 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e465cec0-bb55-4659-a41b-ace57560d0ec")
+		(property "Reference" "JP5"
+			(at 379.7369 100.9267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 373.6409 100.9267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 377.1969 100.9267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.1969 100.9267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 377.1969 100.9267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dde28f1-e1b1-4a64-bd50-e6bf1dfbd482")
+		)
+		(pin "2"
+			(uuid "d6170be1-86bb-4392-b315-fcdd6e2af4c9")
+		)
+		(instances
+			(project "MODBUS_CLIX"
+				(path "/9261da16-fb7d-40d7-ab0d-e30fadb62d03"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
