@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Innov")(type "KiCad")(uri "C:/Users/Aerest/Documents/GitHub/mikroE_Modbus/MIKROE_RELAY/Footprints and symbols/Innov_kits")(options "")(descr ""))
+  (lib (name "Mikroe")(type "KiCad")(uri "C:/Users/Aerest/Documents/GitHub/mikroE_Modbus/MIKROE_RELAY/Footprints and symbols/MIKROE_3800")(options "")(descr ""))
+)
