@@ -3827,7 +3827,7 @@
 		(uuid "87c3a188-626d-44b5-85ff-f9a025a1ef34")
 	)
 	(label "RE1"
-		(at 79.183 120.1509 0)
+		(at 79.183 122.6909 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3838,7 +3838,7 @@
 		(uuid "78fca187-b253-45bc-99d4-cda6dc9fa45c")
 	)
 	(label "RE2"
-		(at 79.183 122.6909 0)
+		(at 79.183 120.1509 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
